@@ -54,7 +54,7 @@ body{
     border-radius: 10px;
     padding: 30px;
     color: white;
-
+    width: 100%;
 }
 
 #menu a:hover{
@@ -204,7 +204,7 @@ main section:nth-child(3){
 } 
 
 @media (max-width: 450px) {
-     #menu a, #topo {
+     #menu, #topo, #logo {
       display: flex;
       padding: 20px;
       width: 35%;
