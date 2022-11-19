@@ -18,7 +18,7 @@ body{
  
 #topo{
     width: 100%;
-    height: max-content;
+    height: auto;
     float: left;
     background-color: rgb(15, 1, 68);
     margin-bottom: 40px;
