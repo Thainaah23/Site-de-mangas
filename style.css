@@ -205,7 +205,7 @@ main section:nth-child(3){
 
 @media (max-width: 450px) {
     #topo {
-      float: right;   
+      display: flex;   
       width: 30%;
       height: 400px;
       transform: translateX(-100%);
