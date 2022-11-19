@@ -18,8 +18,8 @@ body{
  
 #topo{
     width: 100%;
-    height: 120px;
-    float: left;
+    height: 100%;
+    display: flow-root;
     background-color: rgb(15, 1, 68);
     margin-bottom: 40px;
     box-shadow: 1px 1px 5px black;
@@ -40,9 +40,10 @@ body{
 }
  
 #menu{
-    width: 650px;
-    height: 20px;
-    float: right;
+    width: max-content;
+    height: 100%;
+    position: absolute;
+    left: 50%;
     margin-top: 50px;
     margin-right: 90px;
 }
@@ -201,4 +202,3 @@ main section:nth-child(3){
         transform: translateX(0)
     }
 } 
-
