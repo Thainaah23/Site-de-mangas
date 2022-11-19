@@ -40,9 +40,10 @@ body{
 }
  
 #menu{
-    width: 650px;
+    width: max-content;
     height: 20px;
-    float: right;
+    position: absolute;
+    left: 50%;
     margin-top: 50px;
     margin-right: 90px;
 }
@@ -202,3 +203,12 @@ main section:nth-child(3){
     }
 } 
 
+@media (max-width: 450px) {
+     #menu, #topo {
+      display: flex;
+      padding: 20px;
+      width: 35%;
+      height: 100%;
+
+    }
+  }
