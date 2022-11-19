@@ -204,7 +204,7 @@ main section:nth-child(3){
 } 
 
 @media (max-width: 450px) {
-     #menu, #topo {
+     #menu a, #topo {
       display: flex;
       padding: 20px;
       width: 35%;
