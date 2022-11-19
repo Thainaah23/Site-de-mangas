@@ -207,6 +207,5 @@ main section:nth-child(3){
     #topo {
       display: flex;   
       width: 100%;
-      transform: translateX(-100%);
     }
   }
